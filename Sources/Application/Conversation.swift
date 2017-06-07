@@ -7,6 +7,13 @@
 //
 
 import Foundation
+import Kitura
+import SwiftyJSON
+import NaturalLanguageUnderstandingV1
+import ConversationV1
+import KituraRequest
+import KituraNet
+import RestKit
 
 
 func sendMessageToConversation(_ message: JSON, context: Context?=nil, completion: @escaping (_ context: MessageResponse?, _ err: NSError?) -> Void) {
