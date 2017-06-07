@@ -104,7 +104,7 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
                             var json = JSON(ctx)
                             let city = json["city"][0]
                             json["city"] = ["name": city, "alternate_name": city, "states": geoLocatedCity, "number_of_states": JSON(geoLocatedCity as Any).count]
-                            if json["city"][2]["number_of_states"].int! == 1 {
+                            if json["city"][2]["number_of_states"].intValue == 1 {
                                 ctx["state"] = json["city"]["states"][0]
                             }
                             do {
@@ -206,8 +206,6 @@ func putUser(_ user: String, completion: @escaping (_ id: String?, _ doc: JSON?,
        completion(id, doc, error)
     }
 }
-
-// Weather
 
 
 typealias JSONDictionary = [String: Any?]

@@ -43,15 +43,11 @@ public func initialize() throws {
 
     // Conversation
     let service = try manager.getWatsonConversationService(name: "text-bot-WatsonConversation-j9b3")
-    conversation = Conversation(service: service)
+    conversation = Conversation(service: service, version: "2017-06-07")
     
     // NLU
-    // Natural langauge understanding
-    // TODO: Add this to cloud configuration
-    let username = "430f4dc1-4108-42ab-8a8e-e8aeb53b97ae"
-    let password = "JFLFIaFTyeid"
-    let version = "2017-05-19" // use today's date for the most recent version
-    nlu = NaturalLanguageUnderstanding(username: username, password: password, version: version)
+    let NLUservice = try manager.getNaturalLanguageUnderstandingService(name: "text-bot-nlu")
+    nlu = NaturalLanguageUnderstanding(service: NLUservice, version: "2017-06-07")
     
     initiliazeWatsonRoutes()
     

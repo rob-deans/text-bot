@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_634"
+               BlueprintIdentifier = "OBJ_635"
                BuildableName = "LoggerAPI.framework"
                BlueprintName = "LoggerAPI"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_641"
+               BlueprintIdentifier = "OBJ_642"
                BuildableName = "Socket.framework"
                BlueprintName = "Socket"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_650"
+               BlueprintIdentifier = "OBJ_651"
                BuildableName = "SSLService.framework"
                BlueprintName = "SSLService"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_659"
+               BlueprintIdentifier = "OBJ_660"
                BuildableName = "KituraNet.framework"
                BlueprintName = "KituraNet"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_707"
+               BlueprintIdentifier = "OBJ_708"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_722"
+               BlueprintIdentifier = "OBJ_723"
                BuildableName = "SwiftyJSON.framework"
                BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_730"
+               BlueprintIdentifier = "OBJ_731"
                BuildableName = "KituraTemplateEngine.framework"
                BlueprintName = "KituraTemplateEngine"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_737"
+               BlueprintIdentifier = "OBJ_738"
                BuildableName = "Kitura.framework"
                BlueprintName = "Kitura"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_800"
+               BlueprintIdentifier = "OBJ_801"
                BuildableName = "HeliumLogger.framework"
                BlueprintName = "HeliumLogger"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -140,7 +140,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_810"
+               BlueprintIdentifier = "OBJ_811"
                BuildableName = "Configuration.framework"
                BlueprintName = "Configuration"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -154,7 +154,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_824"
+               BlueprintIdentifier = "OBJ_825"
                BuildableName = "TestProgram"
                BlueprintName = "TestProgram"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -168,7 +168,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_835"
+               BlueprintIdentifier = "OBJ_836"
                BuildableName = "CloudFoundryEnv.framework"
                BlueprintName = "CloudFoundryEnv"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -182,7 +182,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_851"
+               BlueprintIdentifier = "OBJ_852"
                BuildableName = "CloudFoundryConfig.framework"
                BlueprintName = "CloudFoundryConfig"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -196,7 +196,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_865"
+               BlueprintIdentifier = "OBJ_866"
                BuildableName = "CouchDB.framework"
                BlueprintName = "CouchDB"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -210,7 +210,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_890"
+               BlueprintIdentifier = "OBJ_891"
                BuildableName = "CouchDBSample"
                BlueprintName = "CouchDBSample"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -224,7 +224,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_913"
+               BlueprintIdentifier = "OBJ_914"
                BuildableName = "SupportingFiles.framework"
                BlueprintName = "SupportingFiles"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -238,7 +238,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_920"
+               BlueprintIdentifier = "OBJ_921"
                BuildableName = "RelationshipExtractionV1Beta.framework"
                BlueprintName = "RelationshipExtractionV1Beta"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -252,7 +252,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_935"
+               BlueprintIdentifier = "OBJ_936"
                BuildableName = "DocumentConversionV1.framework"
                BlueprintName = "DocumentConversionV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -266,7 +266,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_949"
+               BlueprintIdentifier = "OBJ_950"
                BuildableName = "DiscoveryV1.framework"
                BlueprintName = "DiscoveryV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -280,7 +280,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_981"
+               BlueprintIdentifier = "OBJ_982"
                BuildableName = "LanguageTranslatorV2.framework"
                BlueprintName = "LanguageTranslatorV2"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -294,7 +294,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_934"
+               BlueprintIdentifier = "OBJ_935"
                BuildableName = "RestKit.framework"
                BlueprintName = "RestKit"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -308,7 +308,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1007"
+               BlueprintIdentifier = "OBJ_1008"
                BuildableName = "NaturalLanguageUnderstandingV1.framework"
                BlueprintName = "NaturalLanguageUnderstandingV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -322,7 +322,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1039"
+               BlueprintIdentifier = "OBJ_1040"
                BuildableName = "RetrieveAndRankV1.framework"
                BlueprintName = "RetrieveAndRankV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -336,7 +336,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1054"
+               BlueprintIdentifier = "OBJ_1055"
                BuildableName = "ConversationV1.framework"
                BlueprintName = "ConversationV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -350,7 +350,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1091"
+               BlueprintIdentifier = "OBJ_1092"
                BuildableName = "PersonalityInsightsV2.framework"
                BlueprintName = "PersonalityInsightsV2"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -364,7 +364,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1103"
+               BlueprintIdentifier = "OBJ_1104"
                BuildableName = "NaturalLanguageClassifierV1.framework"
                BlueprintName = "NaturalLanguageClassifierV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -378,7 +378,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1115"
+               BlueprintIdentifier = "OBJ_1116"
                BuildableName = "DialogV1.framework"
                BlueprintName = "DialogV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -392,7 +392,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1130"
+               BlueprintIdentifier = "OBJ_1131"
                BuildableName = "PersonalityInsightsV3.framework"
                BlueprintName = "PersonalityInsightsV3"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -406,7 +406,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1146"
+               BlueprintIdentifier = "OBJ_1147"
                BuildableName = "AlchemyDataNewsV1.framework"
                BlueprintName = "AlchemyDataNewsV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -420,7 +420,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1174"
+               BlueprintIdentifier = "OBJ_1175"
                BuildableName = "AlchemyLanguageV1.framework"
                BlueprintName = "AlchemyLanguageV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -434,7 +434,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1213"
+               BlueprintIdentifier = "OBJ_1214"
                BuildableName = "AlchemyVisionV1.framework"
                BlueprintName = "AlchemyVisionV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -448,7 +448,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1227"
+               BlueprintIdentifier = "OBJ_1228"
                BuildableName = "VisualRecognitionV3.framework"
                BlueprintName = "VisualRecognitionV3"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -462,7 +462,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1244"
+               BlueprintIdentifier = "OBJ_1245"
                BuildableName = "TradeoffAnalyticsV1.framework"
                BlueprintName = "TradeoffAnalyticsV1"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -476,7 +476,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1256"
+               BlueprintIdentifier = "OBJ_1257"
                BuildableName = "ToneAnalyzerV3.framework"
                BlueprintName = "ToneAnalyzerV3"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -490,7 +490,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1269"
+               BlueprintIdentifier = "OBJ_1270"
                BuildableName = "Cryptor.framework"
                BlueprintName = "Cryptor"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -504,7 +504,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1285"
+               BlueprintIdentifier = "OBJ_1286"
                BuildableName = "KituraWebSocket.framework"
                BlueprintName = "KituraWebSocket"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -518,7 +518,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1313"
+               BlueprintIdentifier = "OBJ_1314"
                BuildableName = "KituraRequest.framework"
                BlueprintName = "KituraRequest"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -532,7 +532,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1343"
+               BlueprintIdentifier = "OBJ_1344"
                BuildableName = "SwiftBAMDC.framework"
                BlueprintName = "SwiftBAMDC"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -546,7 +546,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1389"
+               BlueprintIdentifier = "OBJ_1390"
                BuildableName = "cpuplugin.framework"
                BlueprintName = "cpuplugin"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -560,7 +560,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1437"
+               BlueprintIdentifier = "OBJ_1438"
                BuildableName = "mqttplugin.framework"
                BlueprintName = "mqttplugin"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -574,7 +574,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1478"
+               BlueprintIdentifier = "OBJ_1479"
                BuildableName = "SwiftMetricsBluemix.framework"
                BlueprintName = "SwiftMetricsBluemix"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -588,7 +588,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1529"
+               BlueprintIdentifier = "OBJ_1530"
                BuildableName = "SwiftMetricsDash.framework"
                BlueprintName = "SwiftMetricsDash"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -602,7 +602,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1387"
+               BlueprintIdentifier = "OBJ_1388"
                BuildableName = "agentcore.framework"
                BlueprintName = "agentcore"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -616,7 +616,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1395"
+               BlueprintIdentifier = "OBJ_1396"
                BuildableName = "hcapiplugin.framework"
                BlueprintName = "hcapiplugin"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -630,7 +630,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1397"
+               BlueprintIdentifier = "OBJ_1398"
                BuildableName = "SwiftMetrics.framework"
                BlueprintName = "SwiftMetrics"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -644,7 +644,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1391"
+               BlueprintIdentifier = "OBJ_1392"
                BuildableName = "envplugin.framework"
                BlueprintName = "envplugin"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -658,7 +658,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1399"
+               BlueprintIdentifier = "OBJ_1400"
                BuildableName = "SwiftMetricsKitura.framework"
                BlueprintName = "SwiftMetricsKitura"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -672,7 +672,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1476"
+               BlueprintIdentifier = "OBJ_1477"
                BuildableName = "paho.framework"
                BlueprintName = "paho"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -686,7 +686,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1393"
+               BlueprintIdentifier = "OBJ_1394"
                BuildableName = "memplugin.framework"
                BlueprintName = "memplugin"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -700,7 +700,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1893"
+               BlueprintIdentifier = "OBJ_1894"
                BuildableName = "text-bot"
                BlueprintName = "text-bot"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -714,7 +714,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1996"
+               BlueprintIdentifier = "OBJ_1997"
                BuildableName = "Application.framework"
                BlueprintName = "Application"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -732,7 +732,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2103"
+               BlueprintIdentifier = "OBJ_2105"
                BuildableName = "ApplicationTests.xctest"
                BlueprintName = "ApplicationTests"
                ReferencedContainer = "container:text-bot.xcodeproj">
@@ -755,7 +755,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_634"
+            BlueprintIdentifier = "OBJ_635"
             BuildableName = "LoggerAPI.framework"
             BlueprintName = "LoggerAPI"
             ReferencedContainer = "container:text-bot.xcodeproj">

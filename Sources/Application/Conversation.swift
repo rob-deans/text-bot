@@ -37,7 +37,6 @@ func sendMessageToConversation(_ message: JSON, context: Context?=nil, completio
         }
         conversation?.message(withWorkspace: workspaceID, request: request, failure: failure) { response in
             print(response.context.json)
-            print(response.output.text)
             completion(response, nil)
         }
     } else {
