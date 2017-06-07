@@ -1,0 +1,4 @@
+module paho {
+    umbrella "/Users/robertdeans/Documents/t/text-bot/.build/checkouts/SwiftMetrics.git-8417478658542232501/Sources/paho/include"
+    export *
+}

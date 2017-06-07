@@ -1,0 +1,12 @@
+applications:
+- name: textbot
+  random-route: true
+  memory: 128M
+  instances: 1
+  disk_quota: 1024M
+  buildpack: swift_buildpack
+  command: text-bot --bind 0.0.0.0:$PORT
+  services:
+  - text-bot-Cloudant-d0c5
+  - text-bot-WatsonConversation-j9b3
+  timeout: 180
