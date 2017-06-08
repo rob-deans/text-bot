@@ -13,6 +13,8 @@ let package = Package(
 
         .Package(url: "https://github.com/watson-developer-cloud/swift-sdk",    majorVersion: 0),
         .Package(url: "https://github.com/RuntimeTools/SwiftMetrics.git", majorVersion: 1),
+        
+        .Package(url: "https://github.com/SwiftOnTheServer/SwiftDotEnv", majorVersion: 1),
 
     ],
     exclude: ["src"]

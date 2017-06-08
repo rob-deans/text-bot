@@ -32,7 +32,9 @@ func initiliazeWatsonRoutes() {
                 if let err = err {
                     res.send(json: [ "error": err.domain ])
                 } else {
-                    res.send(json: response!.json)
+                    if let response = response {
+                        res.send(json: response.json)
+                    }
                 }
                 next()
             }
@@ -73,7 +75,6 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
                             var ctx = context!.json
                             var json = JSON(ctx)
                             json["city"] = ["name": c, "alternate_name": c, "states": geoLocatedCity, "number_of_states": JSON(geoLocatedCity as Any).count]
-//                            json["city"] = ["name": c, ]
                             if json["city"]["number_of_states"].intValue == 1 {
                                 ctx["state"] = json["city"]["states"][0]
                             }
@@ -136,16 +137,13 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
                 
                 // BEGIN update context for get_weather
                 if json["city"]["name"] != nil && json["state"] != nil {
-                    let loc = JSON(["city": json["city"]["name"].string, "state": json["state"].string])
+                    let loc = JSON(["city": json["city"]["name"].stringValue, "state": json["state"].stringValue])
                     if let state = loc["state"].string {
                         let gLocation = json["city"]["states"][state]
                         if gLocation == nil {
                             json["input"] = "Hello"
                             sendMessageToConversation(json) { response, error in
-                                if let error = error {
-                                    completion(error, nil)
-                                }
-                                completion(nil, response)
+                                completion(error, response)
                             }
                         }
                         json["city"]["number_of_states"] = 1
@@ -165,22 +163,14 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
                                     print(error)
                                 }
                                 sendMessageToConversation(message, context: context) { response, error in
-                                    if let error = error {
-                                        completion(error, nil)
-                                    } else {
-                                        completion(nil, response)
-                                    }
+                                    completion(error, response)
                                 }
                             }
                         }
                     }
                 } else {
                     sendMessageToConversation(message, context: context) { response, error in
-                        if let error = error {
-                            completion(error, nil)
-                        } else {
-                            completion(nil, response)
-                        }
+                        completion(error, response)
                     }
                 }
             }

@@ -21,6 +21,8 @@ internal var couchDBClient: CouchDBClient?
 internal var conversation: Conversation?
 
 internal var nlu: NaturalLanguageUnderstanding?
+
+internal var weather: Weather?
  
 let failure = { (error: Swift.Error) in print("failure", error) }
  
@@ -48,6 +50,9 @@ public func initialize() throws {
     // NLU
     let NLUservice = try manager.getNaturalLanguageUnderstandingService(name: "text-bot-nlu")
     nlu = NaturalLanguageUnderstanding(service: NLUservice, version: "2017-06-07")
+    
+    // Weather
+    weather = try Weather()
     
     initiliazeWatsonRoutes()
     
