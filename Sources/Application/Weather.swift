@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 import KituraRequest
-import DotEnv
+import CloudFoundryConfig
 
 func getGeoLocation(city: String, completion: @escaping (_ data: [String:Any]?, _ error: Swift.Error?) -> Void ) {
     var qString: QueryString = [:]
@@ -20,8 +20,8 @@ func getGeoLocation(city: String, completion: @escaping (_ data: [String:Any]?, 
     qString["language"] = "en-US"
     
     // Make a request to the weather
-    KituraRequest.request(.get, weather!.baseURL + "v3/location/search", parameters: qString).response { request, response, data, error in
-        
+    KituraRequest.request(.get, weather!.url + "/api/weather/v3/location/search", parameters: qString).response { request, response, data, error in
+
         //convert to json
         let json = JSON(data: data!)
         
@@ -54,7 +54,7 @@ func getForecast(params: JSON, completion: @escaping (_ error: String?, _ foreca
         qString["units"] = "e"
         qString["language"] = "en-US"
         
-        KituraRequest.request(.get, "https://twcservice.mybluemix.net/api/weather/v1/geocode/\(latitude)/\(longitude)/forecast/daily/7day.json", parameters: qString, headers: ["Authorization": "Basic ZWJiMDQyMmMtMTQ2Ny00YmQ2LTllNWItMWRhN2RlNzM0NzJmOnkxVUpXU01uSnA="]).response {
+        KituraRequest.request(.get, weather!.url + "/api/weather/v1/geocode/\(latitude)/\(longitude)/forecast/daily/7day.json", parameters: qString).response {
             request, response, data, error in
             if let error = error { print(error) }
             if response?.httpStatusCode.rawValue != 200 {
@@ -96,31 +96,10 @@ struct Weather {
     let username: String?
     let password: String?
     var url: String
-    let baseURL: String
-    var header: [String: String] = [:]
     
-    // Need to read from somewhere the username and password
-    init() throws {
-        let env = DotEnv(withFile: ".env")
-        self.username = env.get("WEATHER_USERNAME")
-        self.password = env.get("WEATHER_PASSWORD")
-        self.url = env.get("WEATHER_URL") ?? "twcservice.mybluemix.net/api/weather/"
-        
-        let cleanUrl = self.url.replacingOccurrences(of: "https://", with: "")
-        guard let user = username, let pass = password else {
-            throw WeatherError.propertiesMissing
-        }
-        let auth = "\(user):\(pass)"
-        self.baseURL = "https://\(auth)@\(cleanUrl)"
-    }
-}
-
-enum WeatherError: Error, LocalizedError {
-    case propertiesMissing
-    
-    var errorDescription: String? {
-        switch self {
-        case .propertiesMissing: return "Username or password missing from the .env file"
-        }
+    init(service: WeatherInsightService) {
+        self.username = service.username
+        self.password = service.password
+        self.url = service.url
     }
 }

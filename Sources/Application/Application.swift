@@ -15,9 +15,6 @@ public var port: Int = 8080
 
 internal var couchDBClient: CouchDBClient?
 
-//var username: String?
-//var password: String?
-
 internal var conversation: Conversation?
 
 internal var nlu: NaturalLanguageUnderstanding?
@@ -38,21 +35,22 @@ public func initialize() throws {
     let sm = try SwiftMetrics()
     let _ = try SwiftMetricsDash(swiftMetricsInstance : sm, endpoint: router)
 
-    let cloudantService = try manager.getCloudantService(name: "text-bot-Cloudant-d0c5")
+    let cloudantService = try manager.getCloudantService(name: "Cloudant NoSQL DB-w8")
     couchDBClient = CouchDBClient(service: cloudantService)
     
     couchDBClient?.createDB("test") { _ , _ in }
 
     // Conversation
-    let service = try manager.getWatsonConversationService(name: "text-bot-WatsonConversation-j9b3")
+    let service = try manager.getWatsonConversationService(name: "Conversation-fg")
     conversation = Conversation(service: service, version: "2017-06-07")
     
     // NLU
-    let NLUservice = try manager.getNaturalLanguageUnderstandingService(name: "text-bot-nlu")
+    let NLUservice = try manager.getNaturalLanguageUnderstandingService(name: "Natural Language Understanding-0y")
     nlu = NaturalLanguageUnderstanding(service: NLUservice, version: "2017-06-07")
     
     // Weather
-    weather = try Weather()
+    let weatherService = try manager.getWeatherInsightService(name: "Weather Company Data-4c")
+    weather = Weather(service: weatherService)
     
     initiliazeWatsonRoutes()
     
