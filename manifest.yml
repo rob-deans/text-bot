@@ -7,6 +7,7 @@ applications:
   buildpack: swift_buildpack
   command: text-bot --bind 0.0.0.0:$PORT
   services:
-  - text-bot-Cloudant-d0c5
   - text-bot-WatsonConversation-j9b3
+  - Conversation-fg
+  - Weather Company Data-4c
   timeout: 180
