@@ -13,7 +13,7 @@ public let router = Router()
 public let manager = ConfigurationManager()
 public var port: Int = 8080
 
-internal var couchDBClient: CouchDBClient?
+//internal var couchDBClient: CouchDBClient?
 
 internal var conversation: Conversation?
 
@@ -35,10 +35,10 @@ public func initialize() throws {
     let sm = try SwiftMetrics()
     let _ = try SwiftMetricsDash(swiftMetricsInstance : sm, endpoint: router)
 
-    let cloudantService = try manager.getCloudantService(name: "Cloudant NoSQL DB-w8")
-    couchDBClient = CouchDBClient(service: cloudantService)
+//    let cloudantService = try manager.getCloudantService(name: "Cloudant NoSQL DB-w8")
+//    couchDBClient = CouchDBClient(service: cloudantService)
     
-    couchDBClient?.createDB("test") { _ , _ in }
+//    couchDBClient?.createDB("test") { _ , _ in }
 
     // Conversation
     let service = try manager.getWatsonConversationService(name: "Conversation-fg")

@@ -25,7 +25,6 @@ stages:
       application: ${CF_APP}
     script: |-
       #!/bin/bash
-      cf create-service "cloudantNoSQLDB" "Lite" "Cloudant NoSQL DB-w8"
       cf create-service "conversation" "free" "Conversation-fg"
       cf create-service "natural-language-understanding" "free" "Natural Language Understanding-0y"
       cf create-service "weatherinsights" "Free-v2" "Weather Company Data-4c"

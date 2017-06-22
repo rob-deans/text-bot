@@ -178,24 +178,24 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
 //    }
 }
 
-func getUser(_ user: String, completion: @escaping (_ error: NSError?, _ response: JSON?) -> Void) {
-    let userDatabase = couchDBClient?.usersDatabase()
-    userDatabase?.getUser(name: user) { data , err in
-     completion(err, data)
-    }
-}
+//func getUser(_ user: String, completion: @escaping (_ error: NSError?, _ response: JSON?) -> Void) {
+//    let userDatabase = couchDBClient?.usersDatabase()
+//    userDatabase?.getUser(name: user) { data , err in
+//     completion(err, data)
+//    }
+//}
 
-func putUser(_ user: String, completion: @escaping (_ id: String?, _ doc: JSON?, _ err: Swift.Error?) -> Void) {
-    let userDatabase = couchDBClient?.usersDatabase()
-    var newUser = JSONDictionary()
-    newUser["type"]        	= user
-    newUser["roles"]       	= []
-    
-    let document = JSON(newUser)
-    userDatabase?.createUser(document: document) { id, doc, error in
-       completion(id, doc, error)
-    }
-}
+//func putUser(_ user: String, completion: @escaping (_ id: String?, _ doc: JSON?, _ err: Swift.Error?) -> Void) {
+//    let userDatabase = couchDBClient?.usersDatabase()
+//    var newUser = JSONDictionary()
+//    newUser["type"]        	= user
+//    newUser["roles"]       	= []
+//    
+//    let document = JSON(newUser)
+//    userDatabase?.createUser(document: document) { id, doc, error in
+//       completion(id, doc, error)
+//    }
+//}
 
 
 typealias JSONDictionary = [String: Any?]
