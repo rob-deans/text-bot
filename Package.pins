@@ -56,6 +56,12 @@
       "version": "1.7.0"
     },
     {
+      "package": "Kitura-net",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
+      "version": "1.7.12"
+    },
+    {
       "package": "Kitura-TemplateEngine",
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/Kitura-TemplateEngine.git",
@@ -66,12 +72,6 @@
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/Kitura-WebSocket.git",
       "version": "0.8.2"
-    },
-    {
-      "package": "Kitura-net",
-      "reason": null,
-      "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
-      "version": "1.7.12"
     },
     {
       "package": "KituraRequest",
@@ -88,8 +88,8 @@
     {
       "package": "OpenSSL",
       "reason": null,
-      "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
-      "version": "0.12.44"
+      "repositoryURL": "https://github.com/IBM-Swift/OpenSSL.git",
+      "version": "0.3.5"
     },
     {
       "package": "Signals",
@@ -107,7 +107,7 @@
       "package": "SSLService",
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
-      "version": "0.12.43"
+      "version": "0.12.44"
     },
     {
       "package": "SwiftDotEnv",
