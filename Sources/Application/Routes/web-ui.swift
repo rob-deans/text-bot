@@ -70,7 +70,7 @@ func processMessage(_ _message: JSON, completion: @escaping (_ err: NSError?, _ 
                 }
                 if context!.json["city"] != nil && context!.json["state"] == nil {
                     getGeoLocation(city: c) { geoLocatedCity, err in
-                        if let err = err { completion(err as NSError, nil) }
+                        if let err = err { completion(err as? NSError, nil) }
                         if let geoLocatedCity = geoLocatedCity {
                             var ctx = context!.json
                             var json = JSON(ctx)
