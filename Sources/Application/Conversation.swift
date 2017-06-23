@@ -12,7 +12,7 @@ import ConversationV1
 
 
 func sendMessageToConversation(_ message: JSON, context: Context?=nil, completion: @escaping (_ context: MessageResponse?, _ err: NSError?) -> Void) {
-    let workspaceID = "3b6bb0fd-2f00-4e5e-9c9a-cbc74237b462"
+    let workspaceID = "aefed000-6643-458f-85c6-a91eed604fff"
     
     if let text = message["input"]["text"].string {
         var request: MessageRequest
