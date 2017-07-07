@@ -1,3 +1,5 @@
+There are known issues but this is a proof of concept and an experiment with Kitura and Watson capabilities
+
 ## Scaffolded Swift Kitura server application
 
 [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
